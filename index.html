@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Artur Resume</title>
+    <meta name="description" content="Это сайт - резюме Артура Синабаригова" />
+    <meta name="keywords" content="Artur, cv, resume" />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="img.jpg" alt="My photo" class="Avatar" />
+        <div class="info-text">
+          <h1>Artur Sinabarigov</h1>
+          <p>
+            I am studying programming languages. I'm going to college. I am a
+            student. I live in <strong>Volgograd</strong>.
+          </p>
+          <p>
+            I do sports, I program, and I plan to travel a lot in the future
+          </p>
+
+          <h4>List of social networks:</h4>
+          <p>
+            <a href="https://vk.com/atlantickeo" target="_blank">Vkontakte </a>
+            |
+            <a
+              href="https://www.youtube.com/channel/UCd9pLKT0wCwwCqx3CZ-I0Gw"
+              target="_blank"
+              >Youtube</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h3>My hobbies</h3>
+        <ul class="list">
+          <li>Sports</li>
+          <li>Gaming</li>
+          <li>Programming</li>
+        </ul>
+      </div>
+
+      <div class="card bg-green">
+        <h3>Work experience</h3>
+        <p>
+          <em>I have no work experience</em>, there are many projects in
+          <a href="https://github.com/Jevalka?tab=repositories" target="_blank">
+            <strong>my portfolio</strong>
+          </a>
+        </p>
+      </div>
+
+      <div class="card bg-red">
+        <div class="contact">
+          <h3>Contact me</h3>
+          <div class="group">
+            <label for="text">Your name</label>
+            <input type="text" id="text" placeholder="Enter a name..." />
+          </div>
+
+          <div class="group">
+            <label for="email">Your email</label>
+            <input type="email" id="email" placeholder="Enter a email..." />
+          </div>
+
+          <div class="group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              cols="25"
+              rows="5"
+              placeholder="Enter a message..."
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn">Send!</button>
+    </div>
+  </body>
+</html>
